@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color:rgb(214, 14, 141)">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hala</title>
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="main.js">
+</head>
+
+<body id="body">
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #220564;
+    }
+
+    li {
+      float: left;
+      border-right: 1px solid #bbb;
+    }
+
+    li:last-child {
+      border-right: none;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #4b1589;
+    }
+
+    .active {
+      background-color: #04AA6D;
+    }
+  </style>
+
+  <button style="color: #4b1589; background-color:#bbb;" type="button" id="dark">الوضع الليلي</button>
+
+  <script>
+    var icon = document.getElementById('dark')
+    var body = document.getElementById('body')
+    icon.onclick = function () {
+      body.classList.toggle('dark')
+    }
+
+
+  </script>
+
+  </head>
+
+  <body>
+    <div>
+      <ul style="display: block;">
+        <li style="font-size: larger;"><a href="index.html" class="col">الصفحة الرئيسية</a></li>
+
+        <li style="font-size: larger;"> <a href="Cowards.html" class="col"> بيبك إناث -</a></li>
+        <li style="font-size: larger;"> <a href="Sugars.html" class="col"> بيبك ذكور-</a></li>
+        <li style="font-size: larger;"> <a href="Legumes.html" class="col">ألبسة نسائية-</a></li>
+        <li style="font-size: larger;"> <a href="refreshment.html" class="col">ألبسة رجالية</a></li>
+      </ul>
+    </div>
+    <br>
+    <br>
+
+    <h2 class="abd">متجر الكتروني لبيع الألبسة</h2>
+
+
+    <div class="wel">
+      <span></span>
+    </div>
+    <div class="dist">
+      <img src="imgss/A/صورة واتساب بتاريخ 2024-02-29 في 16.34.20_34eb5750.jpg" alt="" class="wit">
+      <img src="imgss/A/صورة واتساب بتاريخ 2024-02-29 في 16.35.10_92973dd8.jpg" alt="" class="wit">
+    </div>
